@@ -116,7 +116,7 @@ p{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 11px inset rgb(243, 243, 249);
+    border: 5px inset rgb(243, 243, 249);
     image-orientation: flip;
 
    }
