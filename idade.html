@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=initial-scale=1.0">
+    <title>calculando_idade</title>
+</head>
+<body>
+    <script>
+
+        function pulaLinha(){
+
+        //pulando duas linhas e inserindo linha de separação;
+            document.write ("<br><hr><br>");
+        }
+
+
+        function mostra(texto){
+
+
+            document.write("<big>"+texto+"</big>");
+
+
+
+
+        }
+        
+            var anoAtual=2022;
+        
+                mostra("Geovani tem "+ (anoAtual-1995) +" anos");
+                    pulaLinha();
+                mostra("Amanda tem "+  (anoAtual-1996)+" anos");
+                    pulaLinha();
+                mostra("Hellen tem " + (anoAtual-2002)+" anos");
+                    pulaLinha();   
+
+            var media=((anoAtual-1995)+(anoAtual-1996)+(anoAtual-2002))/3;
+        
+                mostra("A média de idade entre eles é de: " + Math.round(media) +" anos");
+                pulaLinha();
+            
+    </script>
+</body>
+</html>
