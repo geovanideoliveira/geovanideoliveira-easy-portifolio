@@ -108,6 +108,7 @@ p{
     }
     
    .footer {
+    position: relative;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
