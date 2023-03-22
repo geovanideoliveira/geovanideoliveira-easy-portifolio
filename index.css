@@ -109,7 +109,7 @@ p{
     
    .footer {
     position: relative;
-    display: flex;
+    display: -moz-deck;
     justify-content: space-evenly;
     list-style-type: none;
     align-items: center;
