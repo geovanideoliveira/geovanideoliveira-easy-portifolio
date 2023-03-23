@@ -12,20 +12,13 @@
 
 body{
     color: #f5f7ff;
-    background: #131315;
+    background: #000000;
     line-height: 1.5;
     text-align: center;
-border: 27px groove #3c60fc;
+border: 27px groove #071c77f0;
 border-radius: 40px 40px 0px 0px;
+font-family: 'Press Start 2P', cursive;
 }
-canvas {
-    display: flex;
-    width: 125px;
-    height: 125px;
-    border-radius: 5%;
-    border: 5px flex rgb(231, 231, 245)
-     
-  }
 
     
 
@@ -48,7 +41,7 @@ img{
     width: 125px;
     height: 125px;
     border-radius: 50%;
-    border: 5px inset rgb(221, 220, 250);
+    border: 5px solid rgb(221, 220, 250);
 
 }
 h1{
@@ -86,7 +79,7 @@ h5{
 
 h6{
     font-family: Arial, Helvetica, sans-serif 20px;
-    color: green;
+    color: rgb(226, 241, 226);
 }
 
 
@@ -97,6 +90,14 @@ p{
     font-family:sans-serif;
     border-bottom: 1px dotted #eb232367;
     border-radius: 40px 40px 40px 40px;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif 20px;
+    color: rgb(0, 0, 0);
+    border-top: 1px dotted #FFFFFF;
+    border-bottom: 1px dotted #465bb5;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #0e0328;
 }
 
 
@@ -119,16 +120,15 @@ p{
     }
     
    .footer {
-    position: relative;
-    display: -moz-deck;
+    display: -moz-deck ;
     justify-content: space-evenly;
     list-style-type: none;
-    align-items: center;
+    align-items: initial;
 
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 5px inset rgb(243, 243, 249);
+    border: 1px solid rgb(243, 243, 249);
     image-orientation: flip;
 
    }
@@ -141,3 +141,31 @@ p{
     border-bottom: 1px dotted #3c60fc;
     border-radius: 40px 40px 40px 40px;
    }
+   .jogo{
+    background-color: rgb(24, 19, 2);
+    width: 640px;
+    height: 480px;
+
+   }
+   
+
+  canvas {
+    display: absolute;
+    width: 125px;
+    height: 125px;
+    border-radius: 5%;
+    border: 5px flex rgb(231, 231, 245)
+  }
+
+
+
+
+
+ 
+  
+ 
+
+footer a {
+    text-decoration: none;
+    color: #ebe6f3;
+}
