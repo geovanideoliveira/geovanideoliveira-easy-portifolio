@@ -18,6 +18,13 @@ body{
 border: 27px groove #3c60fc;
 border-radius: 40px 40px 0px 0px;
 }
+canvas {
+    display: flex;
+    width: 125px;
+    height: 125px;
+    border-radius: 15%;
+    border: 5px flex rgb(231, 231, 245)
+  }
 
     
 
